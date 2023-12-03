@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Dreams | Apply</title>
+    <!-- Hotjar Tracking Code for https://bucolic-tapioca-1153e7.netlify.app/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3751260,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul class="headerUL">
+                <li class="headerLI"><a href="index.html"><img src="../assets/Logo.png" alt=""></a></li>
+                <li class="headerLI headerText"><a href="index.html">Home</a></li>
+                <li class="headerLI headerText"><a href="members.html">Members</a></li>
+                <li class="headerLI headerText"><a href="aboutus.html">About Us</a></li>
+                <li class="headerLI headerText"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <nav class="mobile">
+            <a href="index.html"><img class="mobileLogo" src="/assets/Logo.png" alt="StreetDreams Logo"></a>
+              <ul class="nav-menu">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="members.html" class="nav-link">Members</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contactus.html" class="nav-link">Contact us</a>
+                  </li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+          </nav>
+</header>
+    <img src="../assets/PageHeaderImage.png" class="indexBgImg" alt="Background Image">
+    <p class="scrollToTopText">Scroll To Top</p>
+    <span class="material-icons md-48 scrollToTop">north</span>
+    <div class="applyTop">
+        <div>
+            <h1>Send us an application</h1>
+            <p>Are you Located around Innlandet/Oslo
+                And have a car that stands out?
+                </p>
+                <p>
+                    Fill out the application form below and
+                    we will go trough the application and
+                    answer you within a few days!
+                </p>
+        </div>
+        <div>
+            <img src="../assets/Apply1.png" alt="Application Lexus">
+        </div>
+    </div>
+    <div class="ApplyBot">
+        <form id="applyForm">
+            <div class="apply">
+                <label for="applyName">Name:</label>
+                <input type="text" name="applyName" id="applyName">
+                <span class="applySpan" id="applyNameSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyMail">E-Mail:</label>
+                <input type="text" name="applyMail" id="applyMail">
+                <span class="applySpan" id="applyEmailSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyCarMake">Car Make and Model:</label>
+                <input type="text" name="applyCarMake" id="applyCarMake">
+                <span class="applySpan" id="applyCarSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyLocated">Where are you located?</label>
+                <input type="text" name="applyLocated" id="applyLocated">
+                <span class="applySpan" id="applyLocationSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyBirth">Birth Date:</label>
+                <input type="date" name="applyBirth" id="applyBirth">
+                <span class="applySpan" id="applyDateSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyMods">What have you done to your car?</label>
+                <textarea name="applyMods" id="applyMods"></textarea>
+                <span class="applySpan" id="applyModsSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="fileInput">Select or drag & drop images</label>
+                <input type="file" id="fileInput" accept="image/*" multiple>
+                <div id="uploadedImages"></div>
+                <span class="applySpan" id="applyImgSpan"></span>
+            </div>
+            <div class="apply">
+                <label for="applyButton"></label>
+                <input type="submit" name="applyButton" id="applyButton">
+            </div>
+        </form>
+    </div>
+    <div class="formComplete">
+        <p>Application was sent!</p>
+        <p>You will get an answer shortly.</p>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <img src="../assets/Logo.png" alt="Logo">
+        </div>
+        <div class="footerMiddle">
+            <ul class="footerUL">
+                <li class="footerLI"><a href="apply.html">Apply</a></li>
+                <li class="footerLI"><a href="members.html">Members</a></li>
+            </ul>
+        </div>
+        <div class="footerRight">
+            <ul class="footerUL">
+                <li class="footerLI"><a href="aboutus.html">About Us</a></li>
+                <li class="footerLI"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="mobileFooter">
+            <ul class="footerUL">
+                <li class="footerLI"><a href="apply.html">Apply</a></li>
+                <li class="footerLI"><a href="members.html">Members</a></li>
+                <li class="footerLI"><a href="aboutus.html">About Us</a></li>
+                <li class="footerLI"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/src/hamburger.js"></script>
+    <script src="/src/apply/apply.js"></script>
+</body>
+</html>
